@@ -1,0 +1,85 @@
+body{
+    background-color: #f5f7fb;
+}
+.card{
+    width:300px;
+    background-color: white;
+    box-shadow: 0 0 10px 5px grey;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img{
+    height: 35px;
+    box-shadow: 0 0 10px 2px grey;
+    padding: 3px;
+    border-radius: 5px;
+    margin: 20px;
+}
+.description{
+    font-size: 15px;
+    padding: 0 20px;
+    margin: 0;
+
+}
+.card-Heading{
+    font-size: 20px;
+    margin-left: 7px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    
+}
+/* small Device */
+@media screen and (max-width: 600px){
+    .card-description{
+        visibility: hidden;
+        display: none;
+
+    }
+    .width{
+        width: 300px;
+        margin-left: 100px;
+        margin-top: 50px;
+}
+}
+/* Normal Device */
+@media screen and (min-width: 601px) and (max-width: 768px)
+{
+    
+        .card{
+            width:150px;
+            margin: 10px 20px;
+        }
+    
+}
+ /*  Tablets Device */
+@media screen and (min-width: 769px) and (max-width: 992px)
+{
+    .cards{
+        justify-content: start;
+    }
+    .card-img{
+        height: 40px;
+    }
+    .card-Heading{
+        font-size: 20px;
+    }
+    .width{
+        width: 300px;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+}
+/* Large Device */
+@media screen and (min-width: 993px) and (max-width: 1200px)
+{
+
+}
